@@ -202,3 +202,33 @@ html, body {
 .resultContainer .description {
     font-size: 12px;
 }
+
+.paginationContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.pageButtons {
+    display: flex;
+}
+
+.pageNumberContainer img {
+    height: 37px;
+}
+
+.pageNumberContainer, .pageNumberContainer a {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.pageNumber {
+    color: #000000;
+    font-size: 13px;
+}
+
+a .pageNumber {
+    color: #4285F4;
+}
